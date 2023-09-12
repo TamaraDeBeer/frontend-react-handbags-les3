@@ -5,6 +5,9 @@ import bag1 from './assets/bag_1.png'
 import bag2 from './assets/bag_2.png'
 import bag3 from './assets/bag_3.png'
 import bag4 from './assets/bag_4.png'
+import brand from './assets/brand.png'
+import our_story from './assets/our_story.png'
+import Tile from "./components/Tile/Tile.jsx";
 
 
 
@@ -59,9 +62,25 @@ function App() {
       />
     </main>
     <footer>
-      <section>
+       <Tile>
+         <h2>The Brand</h2>
+         <p>Hier komt een text</p>
+       </Tile>
 
-      </section>
+      <Tile>
+        <img src={brand} alt="brand"/>
+      </Tile>
+
+      <Tile>
+        <img src={our_story} alt="brand"/>
+      </Tile>
+
+      <Tile>
+        <h2>Our Story</h2>
+        <p>Hier komt een text</p>
+      </Tile>
+
+
     </footer>
   </>
 }
