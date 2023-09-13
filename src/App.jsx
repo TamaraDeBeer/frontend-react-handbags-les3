@@ -9,8 +9,6 @@ import brand from './assets/brand.png'
 import our_story from './assets/our_story.png'
 import Tile from "./components/Tile/Tile.jsx";
 
-
-
 function App() {
   return <>
     <main>
@@ -33,6 +31,7 @@ function App() {
         />
       </nav>
 
+      <div>
       <Product
         productLabel="Best Seller"
         productImage={bag1}
@@ -60,7 +59,8 @@ function App() {
           productName="The Trendy Bag"
           productPrice="€150,-"
       />
-    </main>
+      </div>
+
     <footer>
        <Tile>
          <h2>The Brand</h2>
@@ -79,9 +79,8 @@ function App() {
         <h2>Our Story</h2>
         <p>Hier komt een text</p>
       </Tile>
-
-
     </footer>
+    </main>
   </>
 }
 

@@ -8,7 +8,7 @@ function Product({productLabel, productImage, productName, productPrice}) {
             <img src={productImage} alt="{productName} image"/>
             <p>{productName}</p>
             <h2>{productPrice}</h2>
-            </article>
+        </article>
     );
 }
 

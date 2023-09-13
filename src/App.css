@@ -1,6 +1,7 @@
 main {
   margin: 24px 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -8,8 +9,28 @@ nav {
   margin: 24px 0;
 }
 
+article {
+  width: 100px;
+  position: relative;
+  text-align: center;
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 240px;
+  margin-right: 240px;
 }
+
+
+
